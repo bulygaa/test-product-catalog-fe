@@ -186,7 +186,7 @@ export function AddProductModal({
                 value={formik.values.title}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                className="w-full rounded-lg border text-black border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500 text-black"
                 placeholder="Enter product title"
                 aria-invalid={formik.touched.title && !!formik.errors.title}
                 aria-describedby={
@@ -217,7 +217,7 @@ export function AddProductModal({
                 value={formik.values.description}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                className="w-full text-black rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                 placeholder="Enter product description"
                 aria-invalid={
                   formik.touched.description && !!formik.errors.description
@@ -252,7 +252,7 @@ export function AddProductModal({
                 value={formik.values.category}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                className="w-full rounded-lg border text-black border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                 aria-invalid={
                   formik.touched.category && !!formik.errors.category
                 }
@@ -292,7 +292,7 @@ export function AddProductModal({
                   value={formik.values.price}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                  className="w-full text-black rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                   placeholder="99.99"
                   aria-invalid={formik.touched.price && !!formik.errors.price}
                   aria-describedby={
@@ -323,7 +323,7 @@ export function AddProductModal({
                   value={formik.values.currency}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                  className="w-full rounded-lg border text-black border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                   placeholder="USD"
                   maxLength={3}
                   aria-invalid={
@@ -362,7 +362,7 @@ export function AddProductModal({
                 value={formik.values.stockQuantity}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                className="w-full rounded-lg border text-black border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                 aria-invalid={
                   formik.touched.stockQuantity && !!formik.errors.stockQuantity
                 }
@@ -397,7 +397,7 @@ export function AddProductModal({
                 value={formik.values.images}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
+                className="w-full rounded-lg border text-black border-neutral-200 px-3 py-2 text-sm transition focus:border-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900/10 disabled:bg-neutral-50 disabled:text-neutral-500"
                 placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
                 aria-invalid={formik.touched.images && !!formik.errors.images}
                 aria-describedby={
